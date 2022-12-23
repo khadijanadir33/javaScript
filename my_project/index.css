@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.section1{
+    height: 100vh;
+    background-image:linear-gradient(rgb(8, 8, 8,0.5),rgb(8, 8, 8,0.5)), url("images/pic3.jpg");
+    background-position: center;
+   
+}
+.navbar{
+    top: 0px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:26%;
+ background-color: rgb(10, 10, 10);
+ position: fixed;
+ width:100%;
+}
+ul{
+    margin-top:1%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap:100%;
+    margin-right: 15%;
+}
+strong{
+   margin-left:10%;
+    margin-top:0.2%;
+font-size: 50px;
+font-weight: bolder;
+color: rgb(255,255,255);
+}
+a{
+   font-size:x-large;
+   color: rgb(17, 16, 17);
+   text-decoration: none;
+   color: rgb(255,255,255);
+
+}
+a:hover{
+    color:blueviolet;
+}
+.container{
+   top:50%;
+   left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width:450px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap:25px;
+   justify-content: center;
+   text-align: center;
+ 
+}
+.ltc{
+    font-size:60px;
+    font-style: italic;
+    color:white;
+}
+.btn{
+    margin-left: 30%;
+    width:150px;
+    height: 40px;
+    background-color: brown;
+    border: none;
+    border-radius:20px;
+    cursor: pointer;
+    font-size: large;
+}
+.p{
+    font-size: large;
+ 
+}
+.btn:hover{
+   color:black;
+   box-shadow: 10px 10px 20px black;
+}
+.uil {
+    cursor: pointer;
+    font-size: 100px;
+    position: absolute;
+  margin-left: 90%;
+  margin-top: 25%;
+}
+.uil-angle-left-b{
+margin-left: 0%;
+}
+.slider{
+    display:none;
+}
